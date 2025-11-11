@@ -70,11 +70,26 @@ delete();
 
 
 // ==================== Instructor Class Implementation ====================
-Instructor::Instructor(
+Instructor::Instructor(string name,string department,int experienceYears){
+this->name=name;
+this->department=department;
+this->experienceYears=experienceYears;
 
+Instructor::Instructor(){
+name="Dr.lina khaled";
+experienceYears=5;
+department=Computer Science;
 
+}
+Instructor::void display(){
+cout<<"Name"<<name<<endl;
+cout<<"Department"<<department<<endl;
+cout<<"Experience"<<experienceYears<<endl;
 
-
+}
+Instructor::~Instructor(){
+delete():
+    }
 
 // ==================== Course Class Implementation ====================
 Course::Course(string courseCode,string courseName,int maxStudent,Student*students,int currentStudents){
