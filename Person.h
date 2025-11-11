@@ -3,18 +3,28 @@
 
 #include <string>
 using namespace std;
+class Person{
 
-//#write Person class here
-
-
-
-
-
-
-
-
-
-
-
-
+private:
+    string name;
+    int id;
+public:
+   void display();
+    l ~Person();
 #endif
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
