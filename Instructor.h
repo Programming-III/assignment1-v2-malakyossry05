@@ -3,9 +3,15 @@
 
 #include "Person.h"
 using namespace std;
-//#write Instructor class here
-
-
+Class Instructor{
+  private:
+  string name;
+string department;
+int experienceYears;
+public:
+Instructor(string name,string department,int experienceYears);
+Instructor();
+~Instructor();
 
 
 
