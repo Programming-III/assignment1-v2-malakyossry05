@@ -97,6 +97,10 @@ Course::addStudent(const Student& s){
         Students[i]=student[i];
         maxStudent++;
     }
+        Course::void displayCourseInfo(){
+        cout<<"Course:"<<coursecode<<"-"<<coursename<<endl;
+        cout<<"MaxStudents:"<<maxStudents<<endl;
+        
 
 }
 
