@@ -11,16 +11,7 @@ private:
 public:
    void display();
     l ~Person();
-Person roleinfo(string major,int experienceyears,string department ,int yearlevel):public Student,Instructor{
- Student.major=major;
- Instructor.experienceyears=experienceyears;
- Student.yearlevel=yearlevel;
- Instructor.department=department;
- cout<<"student,major:"<<major;<<endl;
- cout<<"Instructor,department:"<<department<<endl;
- cout<<"Student,yearlevel:"<<yearlevel<<endl;
- cout<<"Instructor,experienceyears:"<<experienceyears<<endl;
-} 
+
 };
 #endif
 
