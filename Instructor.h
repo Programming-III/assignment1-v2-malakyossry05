@@ -13,7 +13,10 @@ Instructor(string name,string department,int experienceYears);
 Instructor();
 ~Instructor();
 
-
+friend ostream operator<<(ostream &out,Instructor i){
+ out<<"Instructor"<<endl;
+ return out;
+}
 
 
 
