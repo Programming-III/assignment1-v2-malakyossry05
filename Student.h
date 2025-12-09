@@ -13,10 +13,6 @@ public:
     Student();
         void display();
         ~Student();
-friend ostream  operator<<(ostream &out,Student &s){
-   out<<"Student"<<endl;
-   return out;
-}
 
 
 
