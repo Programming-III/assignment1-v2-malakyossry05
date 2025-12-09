@@ -18,6 +18,10 @@ class Course
     addStudent(const Student& s);
     displayCourseInfo();
     ~course();
+friend ostream operator<<(ostream &out,Course &c){
+ out<<"Course"<<endl;
+ return out;
+}
 #endif
 
 
