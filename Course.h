@@ -18,21 +18,7 @@ class Course
     addStudent(const Student& s);
     displayCourseInfo();
     ~course();
-friend ostream operator<<(ostream &out,Course &c){
- out<<"Course"<<endl;
- return out;
-}
-friend Course operator[](Course &c,Student &s){
-  int i;
-Student []s;
-this->course=course;
-return s[i];
 
-}
-Course operator==(Course &c){
-    return  this->coursecode==coursecode;
-
-}
 #endif
 
 
