@@ -29,6 +29,10 @@ this->course=course;
 return s[i];
 
 }
+Course operator==(Course &c){
+    return  this->coursecode==coursecode;
+
+}
 #endif
 
 
